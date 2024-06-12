@@ -10,6 +10,38 @@
     width: 325px;
 }
 
+.btn-custom {
+    background-color: #9353FF;
+    color: white;
+    border-radius: 0;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #7A43CC;
+    color: white;
+}
+
+.custom-session {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.custom-session h2,
+.custom-session .texto-menor,
+.custom-session div {
+    color: white;
+}
+
+.custom-session i {
+    color: #DAFF01;
+}
+
+.custom-session .highlight {
+    color: #DAFF01;
+}
+
 @media(min-width: 768px) {
 
     .div-novidades {

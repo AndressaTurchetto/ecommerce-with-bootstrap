@@ -5,18 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
   <title>Meteora</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="./estilos.css">
+  <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-md bg-body-tertiary">
+  <nav class="navbar navbar-expand-md bg-black navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Meteora</a>
+      <a class="navbar-brand" href="#"><h1 class="m-0"><img class="d-block" src="assets/logo-meteora.png" alt="Logo da loja Meteora"></h1></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -37,8 +38,8 @@
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Digite o produto" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
+          <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto" aria-label="Search">
+          <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
         </form>
       </div>
     </div>
@@ -55,39 +56,27 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First
-            slide</text>
-        </svg>
+        <img class="img-fluid d-md-none" src="assets/Mobile/banner1-mobile.png" alt="Modelo feminina vestindo blusa rosa com o fundo lilás">
+        <img class="img-fluid d-none d-md-block d-xl-none" src="assets/Mobile/banner1-mobile.png" alt="Modelo feminina vestindo blusa rosa com o fundo lilás">
+        <img class="img-fluid d-none d-xl-block" src="assets/Desktop/banner1-desktop.png" alt="Modelo feminina vestindo blusa rosa com o fundo lilás">
         <div class="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
           <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second
-            slide</text>
-        </svg>
+        <img class="img-fluid d-md-none" src="assets/Mobile/banner2-mobile.png" alt="Modelo feminina com óculos de sol e fundo rosa">
+        <img class="img-fluid d-none d-md-block d-xl-none" src="assets/Mobile/banner2-mobile.png" alt="Modelo feminina com óculos de sol e fundo rosa">
+        <img class="img-fluid d-none d-xl-block" src="assets/Desktop/banner2-desktop.png" alt="Modelo feminina com óculos de sol e fundo rosa">
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third
-            slide</text>
-        </svg>
+        <img class="img-fluid d-md-none" src="assets/Mobile/banner3-mobile.png" alt="Modelo masculino com óculo, chapéu e fundo laranja">
+        <img class="img-fluid d-none d-md-block d-xl-none" src="assets/Mobile/banner3-mobile.png" alt="Modelo masculino com óculo, chapéu e fundo laranja">
+        <img class="img-fluid d-none d-xl-block" src="assets/Desktop/banner3-desktop.png" alt="Modelo masculino com óculo, chapéu e fundo laranja">
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Some representative placeholder content for the third slide.</p>
@@ -226,7 +215,7 @@
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
           <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Ver mais</a>
+          <a href="#" class="btn btn-custom">Ver mais</a>
         </div>
       </div>
     </div>
@@ -244,7 +233,7 @@
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
           <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Ver mais</a>
+          <a href="#" class="btn btn-custom">Ver mais</a>
         </div>
       </div>
     </div>
@@ -262,7 +251,7 @@
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
           <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Ver mais</a>
+          <a href="#" class="btn btn-custom">Ver mais</a>
         </div>
       </div>
     </div>
@@ -280,7 +269,7 @@
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
           <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Ver mais</a>
+          <a href="#" class="btn btn-custom">Ver mais</a>
         </div>
       </div>
     </div>
@@ -298,7 +287,7 @@
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
           <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Ver mais</a>
+          <a href="#" class="btn btn-custom">Ver mais</a>
         </div>
       </div>
     </div>
@@ -316,14 +305,14 @@
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
           <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Ver mais</a>
+          <a href="#" class="btn btn-custom">Ver mais</a>
         </div>
       </div>
     </div>
 
   </div>
 
-  <section class="pb-4">
+  <section class="pb-4 custom-session">
 
     <h2 class="text-center">Conheça todas as nossas facilidades</h2>
 
@@ -331,7 +320,7 @@
       <div class="divs-facilidades d-flex align-items-center">
         <div><i class="bi bi-x-diamond fs-1"></i></div>
         <div>
-          <div class="ms-3 mb-1">PAGUE PELO PIX</div>
+          <div class="ms-3 mb-1 highlight">PAGUE PELO PIX</div>
           <div class="texto-menor ms-3">Ganhe 5% OFF em
             pagamentos via PIX</div>
         </div>
@@ -340,7 +329,7 @@
       <div class="divs-facilidades d-flex align-items-center">
         <div><i class="bi bi-arrow-repeat fs-1"></i></div>
         <div>
-          <div class="ms-3 mb-1">TROCA GRÁTIS</div>
+          <div class="ms-3 mb-1 highlight">TROCA GRÁTIS</div>
           <div class="texto-menor ms-3">Fique livre para trocar em até 30 dias.</div>
         </div>
       </div>
@@ -348,7 +337,7 @@
       <div class="divs-facilidades d-flex align-items-center">
         <div><i class="bi bi-flower1 fs-1"></i></div>
         <div>
-          <div class="ms-3 mb-1">SUSTENTABILIDADE</div>
+          <div class="ms-3 mb-1 highlight">SUSTENTABILIDADE</div>
           <div class="texto-menor ms-3">Moda responsável, que respeita o meio ambiente.</div>
         </div>
       </div>
@@ -370,8 +359,8 @@
     </div>
   </form>
 
-  <footer class="text-center">
-    <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+  <footer class="text-center custom-session">
+    <p class="py-3">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Andressa Turchetto | Para fins didáticos.</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
