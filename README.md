@@ -1,13 +1,17 @@
 ## Projeto simulando um e-commerce 
 Projeto desenvolvido para esimular uma loja virtual com Bootstrap e JavaScriot.
 
-## Instalando as dependências 
-- npm install
+### Clone o Repositório
+git clone https://github.com/AndressaTurchetto/ecommerce-with-bootstrap.git
 
-## Rodar servidor da API fake
-- Entrar na pasta admin
-- Rodar o comando: json-server --watch db.json
 
-## Rodar front 
-- npm install -g browser-sync
-- browser-sync start --server --file . --host --port 5000 --startPath admin/telas/lista_cliente.html
+![Demonstração da Aplicação](assets/readme/celular1.png)
+![Demonstração da Aplicação](assets/readme/celular2.png)
+![Demonstração da Aplicação](assets/readme/celular3.png)
+![Demonstração da Aplicação](assets/readme/celular4.png)
+
+![Demonstração da Aplicação](assets/readme/desktop1.png)
+![Demonstração da Aplicação](assets/readme/desktop2.png)
+![Demonstração da Aplicação](assets/readme/desktop3.png)
+![Demonstração da Aplicação](assets/readme/desktop4.png)
+![Demonstração da Aplicação](assets/readme/desktop5.png)
